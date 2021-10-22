@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="index">
+        <header><i class="bx bx-left-arrow-alt"></i>Weather App</header>
+        <section class="input-section">
+            <p class="info"></p>
+            <input type="text" placeholder="Enter City Name" spellcheck="false" required>
+            <div class="seperator"></div>
+            <button>Get Location</button>
+        </section>
+        <section class="weather-section">
+            <img src="#" alt="weather icon">
+            <div class="temperature">
+                <span class="num">_</span>
+                <span class="deg">°</span>C
+            </div>
+            <div class="weather">_ _</div>
+            <div class="location">
+                <i class="bx bx-map"></i>
+                <span>_, _</span>
+            </div>
+            <div class="add-details">
+                <div class="column feels">
+                    <i class="bx bxs-thermometer"></i>
+                    <div class="details">
+                        <div class="temperature">
+                            <span class="num-2">_</span>
+                            <span class="deg">°</span>C
+                        </div>
+                        <p>Feels Like</p>
+                    </div>
+                </div>
+                <div class="column humidity">
+                    <i class="bx bxs-droplet-half"></i>
+                    <div class="details">
+                        <span>_</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="column wind">
+                    <div style="font-size:x-large">&#10174;</div>
+                    <div class="details">
+                        <span>_kmph</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
